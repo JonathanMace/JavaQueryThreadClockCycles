@@ -19,4 +19,4 @@ To rebuild the packaged native libraries, navigate to src/main/native and invoke
 
   Linux - linux/build.sh
 
-
+TEMPORARY NOTE: the committed version of the win32 binaries are out of date and need to be rebuilt, but I do not have access to a Windows machine at present
