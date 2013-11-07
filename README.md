@@ -8,11 +8,15 @@ The native implementations are released to the public domain.  This implementati
 Includes native implementations for Linux and for Windows.
 
 Important implementation note:
+
   Windows - calls QueryThreadCycleTime, returns number of CPU cycles
+
   Linux - calls clock_gettime passing CLOCK_THREAD_CPUTIME_ID, returns time in nanoseconds that this thread has spent executing on CPU
 
 To rebuild the packaged native libraries, navigate to src/main/native and invoke:
+
   Windows - win32/build.bat
+
   Linux - linux/build.sh
 
 
